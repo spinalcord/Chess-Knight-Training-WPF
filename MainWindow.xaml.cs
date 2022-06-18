@@ -131,6 +131,9 @@ namespace KnightTraining
 
                 if (chessboard.GetAttackedFieldsOfColor(PieceColor.White).Contains(new Coordinate(StartX, StartY)))
                 {
+                    System.Media.SoundPlayer player = new System.Media.SoundPlayer(Properties.Resources.re);
+                    player.Play();
+
                     chessboard.Mark(coordinateChanger());
                 }
             }

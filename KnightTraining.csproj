@@ -168,6 +168,7 @@
   <ItemGroup>
     <Resource Include="chess.ico" />
     <Resource Include="ico.png" />
+    <Content Include="reward.wav" />
     <Content Include="take.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

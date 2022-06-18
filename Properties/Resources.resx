@@ -121,6 +121,9 @@
   <data name="drop" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\drop.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="reward" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\reward.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="take" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\take.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>

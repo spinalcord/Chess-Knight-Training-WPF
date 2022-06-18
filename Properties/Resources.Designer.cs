@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace KnightTraining.Properties {
+namespace ChessFieldVisualizer.Properties {
     using System;
     
     
@@ -66,6 +66,15 @@ namespace KnightTraining.Properties {
         public static System.IO.UnmanagedMemoryStream drop {
             get {
                 return ResourceManager.GetStream("drop", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.IO.UnmanagedMemoryStream ähnlich wie System.IO.MemoryStream.
+        /// </summary>
+        public static System.IO.UnmanagedMemoryStream reward {
+            get {
+                return ResourceManager.GetStream("reward", resourceCulture);
             }
         }
         

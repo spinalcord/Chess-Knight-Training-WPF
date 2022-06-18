@@ -526,15 +526,16 @@ namespace KnightTraining
 
         public void TakePiece(DraggableObject victim)
         {
-            System.Media.SoundPlayer player = new System.Media.SoundPlayer(Properties.Resources.take);
-            player.Play();
+  
 
             Square victimSquare = victim.square;
             victimSquare.Children.Clear();
             this.square.Children.Remove(this);
             victimSquare.Children.Add(this);
             LastSquare = victimSquare;
-            
+
+            System.Media.SoundPlayer player = new System.Media.SoundPlayer(Properties.Resources.take);
+            player.Play();
         }
 
 
