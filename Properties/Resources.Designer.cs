@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ChessFieldVisualizer.Properties {
+namespace KnightTraining.Properties {
     using System;
     
     

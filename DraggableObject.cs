@@ -533,7 +533,7 @@ namespace KnightTraining
             this.square.Children.Remove(this);
             victimSquare.Children.Add(this);
             LastSquare = victimSquare;
-
+            
             System.Media.SoundPlayer player = new System.Media.SoundPlayer(Properties.Resources.take);
             player.Play();
         }
