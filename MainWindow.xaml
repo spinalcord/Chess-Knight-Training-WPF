@@ -46,7 +46,11 @@
 
                 <GroupBox Grid.Row="2" Header="Stats">
                     <Viewbox StretchDirection="DownOnly" Stretch="Uniform">
-                        <ContentControl  x:Name="Timer" Content="Time: "></ContentControl>
+                        <StackPanel Orientation="Vertical">
+                            <ContentControl  x:Name="Timer" Content=""></ContentControl>
+                            <ContentControl  x:Name="TimerLast" Content=""></ContentControl>
+                        </StackPanel>
+
                     </Viewbox>
                 </GroupBox>
 
