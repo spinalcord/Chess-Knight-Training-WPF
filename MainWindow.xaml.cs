@@ -117,6 +117,7 @@ namespace KnightTraining
 
             if (piece.coordinate.Equals(new Coordinate(StartX, StartY)) )
             {
+                // Reward Soundtrack
                 System.Media.SoundPlayer player = new System.Media.SoundPlayer(Properties.Resources.reward);
                 player.Play();
 
