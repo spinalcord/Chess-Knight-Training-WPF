@@ -34,12 +34,7 @@ namespace KnightTraining
             BoardColumn.Width = new GridLength(this.ActualHeight);
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            //chessboard.HighlightField(Figure.Knight, new Coordinate(2, 0));
-        }
-
-
+   
         int StartX = 8;
         int StartY = 8;
 
